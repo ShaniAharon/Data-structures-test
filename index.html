@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Data Structures</title>
+  </head>
+
+  <body>
+    <h5>Time goes by: <span></span></h5>
+    <section hidden>
+      <h2>Trees</h2>
+      <pre></pre>
+    </section>
+
+    <section>
+      <h2>Tasks Queue</h2>
+      <button onclick="onCheckIsSumEven()">Check if sum even</button>
+      <hr />
+      <input type="text" oninput="this.style.color=this.value" />
+      <button onclick="alert('Im here')">Click</button>
+    </section>
+    <ul class="primes"></ul>
+
+    <section>
+      <h2>
+        Stack for Undo
+        <p>Current Color:<span class="val"> white</span></p>
+        <button onclick="onUndo()" class="btn-undo" disabled>Undo</button>
+      </h2>
+
+      <form onsubmit="onAdd(event)">
+        <input type="color" name="diff" value="#ffffff" />
+        <!-- <input type="text" name="diff" value="white" /> -->
+        <button>Add</button>
+      </form>
+    </section>
+
+    <!-- <script src="js/sort.js"></script> -->
+    <script src="js/queue.js"></script>
+    <!-- <script src="js/stack.js"></script> -->
+    <script src="js/graph.js"></script>
+    <!-- <script src="js/tree.js"></script> -->
+    <!-- <script src="js/moreTasks.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
