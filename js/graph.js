@@ -81,7 +81,7 @@ function createGraph(directed = false) {
 
           if (friends.length) {
             const str = friends.map((node) => node.key).join(' ');
-
+            console.log('test', (result += ` ---> ${str}`));
             result += ` ---> ${str}`;
           }
 
