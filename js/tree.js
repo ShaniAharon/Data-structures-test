@@ -77,7 +77,7 @@ function printDividedBy(rootNode, divider) {
   // numbers that is divided by the divider (e.g. – divided by 5)
   function checkNode(node) {
     if (node.data % divider === 0)
-      console.log(node.data + 'is divided by ' + divider);
+      console.log(node.data + ' is divided by ' + divider);
   }
   traverse(rootNode, 0, checkNode);
 }
